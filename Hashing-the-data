@@ -1,0 +1,28 @@
+Bitcoin uses SHA (Secure Hash Algorithm)-256 hash. SHA-256 is an algorithm that simply turns any kind of data into a standard-size (256 bits) hash.
+
+One input always generates the same hash,
+
+but it is impossible to predict the input back from the hash.
+In the context of blockchain and digital currencies, "hashing" is the process of applying a mathematical function,
+
+called a hash function, to a block of data to produce a fixed-size output, 
+
+
+called a hash or a digest. The hash function is designed to be a one-way function, 
+meaning that it is computationally infeasible to determine the original input data from the hash.
+
+In the case of Bitcoin, the input data for the hash function is a block of transactions,
+and the miner's task is to find a hash that meets certain criteria, such as having a certain number of leading zeroes.
+The miner achieves this by iteratively adding a small number, called a nonce, to the input data and computing the hash.
+
+When the miner finds a hash that meets the criteria, it is considered a solution to the mathematical problem,
+and the miner can add the block of transactions to the blockchain.
+
+The specific hash function used by Bitcoin is called SHA-256 (Secure Hash Algorithm 256-bit). It is a widely used,
+one-way hash function that produces a 256-bit digest from any input data. The hash is a unique representation of the data,
+any change in the data, no matter how small, will produce a completely different hash. This feature makes it suitable for uses such as digital signatures,
+file integrity verification and in the proof-of-work consensus algorithm.
+
+It is important to note that as the miner's computational power increases,
+the difficulty of finding the solution adjusts to make the process more challenging, 
+leading to the need for more computational power to continue to solve the problems and mint new coins.
